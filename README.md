@@ -1,4 +1,4 @@
-# Instruct The Womenw | Womakers_2022
+# Instruct The Women | Womakers_2022
 ## Aula 01: Aula de Python 
 -Revisão dos conceitos básicos de de Pyhton e Estrutra de Dados
 
