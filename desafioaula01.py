@@ -1,4 +1,5 @@
 #Aula01
+
 #Definição da classe
 class Carro:
   def __init__(self):
@@ -30,20 +31,18 @@ class Carro:
         self.velocidade -=10
     
   def __str__(self) -> str:
-    return f'Carro - ligado {self.ligado} - velocidade{self.velocidade}'
+    return f'\nCarro: \n- ligado: {self.ligado} \n- velocidade: {self.velocidade}\n'
 
 #Criando instancias da class Carro
 carro_01 =  Carro()
 
 #Quando chamamos o método ligar() em uma instância, estamos alterando o estado dela. A outra Carro permanece desligado
 carro_01.ligar()
-print('\n#carro_01 está ligado? {}'.format(carro_01.ligado))
+print(f'\n#carro_01 está ligado? {carro_01.ligado}')
 
 for _ in range(10):
   carro_01.velocidade_acelera()
-print('carro_01 : {}'.format(carro_01.velocidade))
+print(f'#carro_01 velocidade: {carro_01.velocidade}.')
 
 #imprimir o conteúdo do objeto
 print('\ncarro_01:', carro_01)
-
-
