@@ -1,6 +1,5 @@
 # Exercício 02
 # Modelagem de um sistema orientado a objetos: Estacionamento
-
 class Estacionamento():
     def __init__(self, vagas_de_carro, vagas_de_moto, carro_para_vaga, moto_para_vaga, total_vagas_livres_carro, total_vagas_livres_moto):
         self.vagas_de_carro = 25
@@ -36,7 +35,6 @@ class Estacionamento():
         else:
             print(f"Status Estacionamento Moto:")
             print(f"{self.total_vagas_livres_moto} vagas de moto livres.\n")
-
 
 situacao = Estacionamento("", "", "", "", "", "")
 situacao.estacionar_carro()

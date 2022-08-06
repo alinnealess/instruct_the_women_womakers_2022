@@ -1,6 +1,5 @@
 #Exercício 02
 #Modelagem de um sistema orientado a objetos: Estacionamento
-
 from veiculo import Veiculo
 
 class Vaga(Veiculo): 
@@ -19,7 +18,6 @@ class Vaga(Veiculo):
     if self.tipo == "Carro":
       print(f"O carro de placa {self.placa} foi estacionado.\n") 
 
-    
   def desocupar(self): 
     self.livre = True 
     self.tipo = input("Desocupar vaga: Carro ou Moto? ")

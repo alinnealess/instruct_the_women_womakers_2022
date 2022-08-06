@@ -1,6 +1,5 @@
 #Exercício 02
 #Modelagem de um sistema orientado a objetos: Estacionamento
-
 from veiculo import Veiculo
 
 class Moto(Veiculo): 
@@ -11,9 +10,9 @@ class Moto(Veiculo):
   def falar_tipo(self):
        print(f"Veículo tipo: {self._tipo}")
 
-Moto = Moto("","")
-Moto.falar_tipo()
-Moto.estacionar() 
+moto = Moto("","")
+moto.falar_tipo()
+moto.estacionar() 
 
-Moto.falar_tipo()
-Moto.sair_da_vaga()
+moto.falar_tipo()
+moto.sair_da_vaga()

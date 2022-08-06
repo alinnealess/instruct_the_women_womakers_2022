@@ -1,7 +1,5 @@
 #Exercício 02
 #Modelagem de um sistema orientado a objetos: Estacionamento
-
-#Veiculo
 class Veiculo(): 
   def __init__(self, placa, estacionado): 
     self.placa = "" 
