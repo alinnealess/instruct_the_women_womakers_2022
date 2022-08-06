@@ -5,3 +5,10 @@
 -Introdução a Orientação a Objetos em Python
 
 -Exercício do programa de mentoria
+
+## Aula 02: Aula de Python - POO
+-Revisão dos conceitos de Classe
+
+-Introdução a Encapsulamento e Heranã
+
+-Exercício do programa de mentoria
