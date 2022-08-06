@@ -13,6 +13,5 @@ class Carro(Veiculo):
 carro = Carro("", "")
 carro.falar_tipo()
 carro.estacionar()
-
 carro.falar_tipo()
 carro.sair_da_vaga()

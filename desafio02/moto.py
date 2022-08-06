@@ -13,6 +13,5 @@ class Moto(Veiculo):
 moto = Moto("","")
 moto.falar_tipo()
 moto.estacionar() 
-
 moto.falar_tipo()
 moto.sair_da_vaga()

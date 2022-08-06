@@ -1,12 +1,12 @@
 #Exercício 02
 #Modelagem de um sistema orientado a objetos: Estacionamento
+
 class Veiculo(): 
   def __init__(self, placa, estacionado): 
     self.placa = "" 
     self.estacionado = True
     self.tipo = ""
     
-
   def estacionar(self):
     self.estacionado = True
     print("Ação: Estacionar")

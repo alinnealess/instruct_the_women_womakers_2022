@@ -1,5 +1,6 @@
 #Exercício 02
 #Modelagem de um sistema orientado a objetos: Estacionamento
+
 from veiculo import Veiculo
 
 class Vaga(Veiculo): 
