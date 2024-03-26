@@ -9,7 +9,7 @@
 ## Aula 02
 -Revisão dos conceitos de Classe
 
--Introdução a Encapsulamento e Heranã
+-Introdução a Encapsulamento e Herança
 
 -Exercício do programa de mentoria
 
